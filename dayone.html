@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to JavaScript.</title>
+</head>
+<body>
+    <!-- JavaScript Display Possibilities -->
+    <div class="display-one">  <h1>My First Web Page</h1>
+        <p>My First Paragraph</p>
+        
+        <p id="demo"></p>
+        
+        <script>
+        document.getElementById("demo").innerHTML = 5 + 6;
+        </script>
+        </div>
+        <div>
+            <h1>My First Web Page</h1>
+<p>My second paragraph.</p>
+
+<script>
+document.write(5 + 6);
+</script>
+        </div>
+        <div>
+            <h1>My First Web Page</h1>
+<p>My third paragraph.</p>
+
+<button type="button" onclick="document.write(5 + 6)">Try it</button>
+        </div>
+        <div>
+            <h1>My First Web Page</h1>
+<p>My fourth paragraph.</p>
+
+<script>
+window.alert(5 + 6);
+   
+</script>
+<!-- We can just use alert() instead of window -->
+        </div>
+        <div>
+            <button onclick="window.print()">Print this page</button>
+        </div>
+        <p id="var-creation"></p>
+
+<script>
+let x, y;
+x = 5 + 6;
+y = x * 10;
+document.getElementById("var-creation").innerHTML = y;
+</script>
+<p id="many-vars"></p>
+
+<script>
+let person = "John Doe", carName = "Volvo", price = 200;
+document.getElementById("many-vars").innerHTML = carName;
+</script>
+  
+</body>
+</html>

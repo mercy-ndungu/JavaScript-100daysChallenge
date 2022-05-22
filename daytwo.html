@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript operators</title>
+</head>
+<body>
+    <!-- We use an = sign to assign values to variables.
+    We use a plus sign to add values in a variable together -->
+    <script>
+        let x = 5
+        let y = 6
+        let z = x + y
+    </script> 
+    <!-- we use asterics to multiply  -->
+    <script>
+        let a = 5
+        let b = 6
+        let c = a *b
+    </script>
+    <!--We use double asterics for exponent or we can use math.pow( here we put our operand)-->
+    <script>
+        let m = 4
+        let n = m**3
+    </script>
+    <!--we use % to get the modulus -->
+    <script>
+        let s = 87
+        let t = 5
+        let o = s%t
+    </script>
+    <!-- we make an increament by one by using ++ and a decreament by one by using -- -->
+
+    String operators.
+    <script>
+        let name = "Mercy"
+        let school = "AkiraChix"
+        let statement = name + "" + school
+    </script>
+    <!-- Tenary operator
+    It works as an if.. else-->
+    <script>
+        function getFee(isMember) {
+  return (isMember ? '$2.00' : '$10.00');
+}
+console.log(getFee(true));
+// expected output: "$2.00"
+
+console.log(getFee(false));
+// expected output: "$10.00"
+
+console.log(getFee(null));
+// expected output: "$10.00"
+
+        
+    </script>
+    <!--Logical operators
+    && is used for and 
+    || is used for or
+    ! is used for not -->
+
+</body>
+</html>
