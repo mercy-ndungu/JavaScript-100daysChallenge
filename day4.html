@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day four
+    </title>
+</head>
+<body>
+    <script>
+        //used to execute whether a condition is true or false.
+       var number = 100;
+       if(number%2==0){
+           document.write("I am an even number")
+       } 
+var a = 20;
+if(a<30){
+    document.write("I am number twenty")
+}
+var hour = 13;
+if(hour>=12){
+    document.write("GoodAfternoon")
+}
+//if ..else
+var num = 21;
+if(num%2==0){
+    document.write("I am an even number")
+} 
+else{
+    document.write("I am an odd number")
+}
+//if..else if (this is used to execute if several options are true or false)
+var name = "Kirigo";
+if(typeof(name)=="string"){
+    document.write("I am a string")
+
+}
+else if(name.length==6){
+    document.write("I am a six charactered string")
+}
+else{
+    document.write("I am neither a string nor have six characters")
+}
+var grade = 'A';
+            switch (grade) {
+               case 'A': document.write("Good job<br />");
+               break;
+            
+               case 'B': document.write("Pretty good<br />");
+               break;
+            
+               case 'C': document.write("Passed<br />");
+               break;
+            
+               case 'D': document.write("Not so good<br />");
+               break;
+            
+               case 'F': document.write("Failed<br />");
+               break;
+            
+               default:  document.write("Unknown grade<br />")
+            }
+            document.write("Exiting switch block");
+var weather = 'Windy';
+switch(weather){
+    case 'cold': document.write("Carry sweater <br />");
+    break;
+
+    case 'Windy' :document.write("Dress heavily.<br />");
+    break;
+
+    case 'Rainy' :document.write("Carry an umbrella and gumboots<br />");
+    break;
+
+    default: document.write("Put on your summer dress , hydrate frequently and put on sunscreen")
+
+
+}
+         
+    </script>
+</body>
+</html>
